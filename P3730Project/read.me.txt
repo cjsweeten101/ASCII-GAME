@@ -1,0 +1,9 @@
+TITLE:ASCII game
+
+AUTHOR:Clayton Sweeten
+USERNAME:u0783227
+
+The above listed authors understand their project will be made available publicly through the class webpage.
+
+RUNNING THE CODE:
+The code requires the instalation of the library "ncurses", at the time of writting all computers in the lab have a current enough version to compile and run the code.  

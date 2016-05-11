@@ -1,0 +1,13 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath}
+\usepackage{graphics}
+
+\title
+{\LARGE{ASCII GAME}}
+\author{\LARGE{Clayton \textsc{Sweeten}}}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+The intent of my project was to create a basic, terminal based, game.  These games use the terminal to display basic graphics, and interpret user inputs from the keyboard.  All of which is done dynamically.  In 1980 a game with this idea was created, Rogue, and from then on all games of this style are known as “Rogue-Likes”.  These games are characterized by using ASCII characters as graphics, having multiple areas or dungeons, having a basic battle system, and items.  These games require input from the keyboard, and then update the terminal based on the input.  That type of dynamic control of the terminal window is not possible in basic C++.  However, a library has been created to do just that, namely, ncurses.  The implementation of this game relied heavily on the proper use of ncurses.  Ncurses is actually quite intuitive; however to a beginner it can seem quite complicated.  To alleviate this complexity, an online tutorial resource was used.   
